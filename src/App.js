@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import ProfileHeader from "./container/header/ProfileHeader";
+import { profileData } from "./container/Data";
+// import About from "./container/about/About";
+// import Experiance from "./container/experience/Experience";
+// import Educations from "./container/education/Educations";
+// import Achievements from "./container/achivements/Achivements";
+// import Footer from "./container/footer/Footer";
+import './App.css'
+import ProfileNavbar from "./container/header/ProfileNavbar";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> 
+        <div className="gradient__bg"> 
+        <ProfileNavbar/>
+        <ProfileHeader name={profileData.name} title={profileData.title} location={profileData.location} ></ProfileHeader>
+        </div>
+        <div>
+        {/* <About/>
+        <Experiance/> */}
+        {/* <Educations/>
+        <Achievements/>
+        <Footer/> */}
+        </div>
     </div>
   );
 }

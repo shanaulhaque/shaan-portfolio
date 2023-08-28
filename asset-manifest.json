@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/shaan-portfolio/static/css/main.8cf5228c.css",
-    "main.js": "/shaan-portfolio/static/js/main.0c3042a3.js",
+    "main.css": "/shaan-portfolio/static/css/main.acf8f2e3.css",
+    "main.js": "/shaan-portfolio/static/js/main.ec68b354.js",
     "static/js/787.60f47323.chunk.js": "/shaan-portfolio/static/js/787.60f47323.chunk.js",
     "static/media/ai.png": "/shaan-portfolio/static/media/ai.aa60586ba1ba53762d94.png",
+    "static/media/education.jpg": "/shaan-portfolio/static/media/education.289229afd77856216103.jpg",
     "index.html": "/shaan-portfolio/index.html",
-    "main.8cf5228c.css.map": "/shaan-portfolio/static/css/main.8cf5228c.css.map",
-    "main.0c3042a3.js.map": "/shaan-portfolio/static/js/main.0c3042a3.js.map",
+    "main.acf8f2e3.css.map": "/shaan-portfolio/static/css/main.acf8f2e3.css.map",
+    "main.ec68b354.js.map": "/shaan-portfolio/static/js/main.ec68b354.js.map",
     "787.60f47323.chunk.js.map": "/shaan-portfolio/static/js/787.60f47323.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cf5228c.css",
-    "static/js/main.0c3042a3.js"
+    "static/css/main.acf8f2e3.css",
+    "static/js/main.ec68b354.js"
   ]
 }

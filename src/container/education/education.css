@@ -1,6 +1,7 @@
 .education_content {
     padding-top: 5rem;
-    background-color: #ffffff;
+    padding-bottom: 5rem;
+    background-color: #f4eeec;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,13 +20,16 @@
 
 .education_content-image img{
     padding-top: 20px;
-    width: 200px;
-    height: 200px;
+    width: 450px;
+    height: 400px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 820px) {
     .education_content {
         flex-direction: column;
+    }
+    .education_content-image{
+        display: none;
     }
     
   }
@@ -35,7 +39,7 @@
         flex-direction: column;
     }
     .education_content-image{
-        margin-left: 0rem;
+        display: none;
     }
   }
 

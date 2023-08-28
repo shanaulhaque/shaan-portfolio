@@ -4,8 +4,7 @@ const EducationDetail = ({ educationDetail }) =>  (
     <div className="education_detail-container">
         <div className="education_detail-container-content" >
             <h2>{educationDetail.institute}</h2>
-            <p>{educationDetail.startDate}</p>
-            <p>{educationDetail.endDate}</p>
+            <h3>{educationDetail.program}</h3>
         </div>
     </div>
 );

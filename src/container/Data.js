@@ -8,19 +8,22 @@ export const profileData = {
 
 export const educationData = [
     {
-        institute: "NIST berhampur",
+        institute: "National Institue of Science and Technology, Berhampur",
+        program: "Bachelor of Technology in Computer Science and Engineering",
         startDate: "2011",
         endDate: "2015",
         instituteImgUrl: ""
     },
     {
-        institute: "BEMS Belpahar",
+        institute: "Belpahar English Medium School Belpahar",
+        program: "High School (XII) - Science",
         startDate: "2011",
         endDate: "2009",
         instituteImgUrl: ""
     },
     {
-        institute: "DAV Bandhbahal",
+        institute: "Dayanand Anglo Vedic (DAV) Bandhbahal",
+        program: "High School (X) - Science",
         startDate: "2009",
         endDate: "1999",
         instituteImgUrl: ""

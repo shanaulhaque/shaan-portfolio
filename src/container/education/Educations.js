@@ -2,7 +2,7 @@
 import EducationDetail from "../../component/EducationDetail";
 import { educationData } from "../Data";
 import './education.css';
-import logo512 from '../../assets/logo512.png';
+import logo512 from '../../assets/education.jpg';
 
 const Educations = () =>  (
     <div className="education_content" id="education">

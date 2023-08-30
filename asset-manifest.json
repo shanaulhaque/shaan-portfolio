@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/shaan-portfolio/static/css/main.d33f0408.css",
-    "main.js": "/shaan-portfolio/static/js/main.6fa7f290.js",
+    "main.css": "/shaan-portfolio/static/css/main.502edadd.css",
+    "main.js": "/shaan-portfolio/static/js/main.b2e79ce7.js",
     "static/js/787.60f47323.chunk.js": "/shaan-portfolio/static/js/787.60f47323.chunk.js",
     "static/media/laptop.png": "/shaan-portfolio/static/media/laptop.12c7808b4bafaa58cdee.png",
+    "static/media/sh.jpg": "/shaan-portfolio/static/media/sh.023ac91ec8a9e3ddb371.jpg",
     "static/media/developer-pic-1.png": "/shaan-portfolio/static/media/developer-pic-1.d116c3d59166a5bec5b4.png",
     "index.html": "/shaan-portfolio/index.html",
-    "main.d33f0408.css.map": "/shaan-portfolio/static/css/main.d33f0408.css.map",
-    "main.6fa7f290.js.map": "/shaan-portfolio/static/js/main.6fa7f290.js.map",
+    "main.502edadd.css.map": "/shaan-portfolio/static/css/main.502edadd.css.map",
+    "main.b2e79ce7.js.map": "/shaan-portfolio/static/js/main.b2e79ce7.js.map",
     "787.60f47323.chunk.js.map": "/shaan-portfolio/static/js/787.60f47323.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d33f0408.css",
-    "static/js/main.6fa7f290.js"
+    "static/css/main.502edadd.css",
+    "static/js/main.b2e79ce7.js"
   ]
 }

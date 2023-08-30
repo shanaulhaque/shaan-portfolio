@@ -1,11 +1,17 @@
 import './education_detail.css'
+import { motion } from "framer-motion"
 
 const EducationDetail = ({ educationDetail }) =>  (
-    <div className="education_detail-container">
-        <div className="education_detail-container-content" >
-            <h2>{educationDetail.institute}</h2>
-            <h3>{educationDetail.program}</h3>
-        </div>
-    </div>
+    <li className="education_detail-container">
+        <motion.div
+        initial={{y:50}}
+        whileInView={{y:0}}
+        transition={{duration:0.5, type:"spring"}}>
+                <div className="education_detail-container-content" >
+                    <h2>{educationDetail.institute}</h2>
+                    <h3>{educationDetail.program}</h3>
+                </div>
+        </motion.div>
+    </li>
 );
 export default EducationDetail;

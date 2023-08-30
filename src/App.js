@@ -1,6 +1,6 @@
 import ProfileHeader from "./container/header/ProfileHeader";
 import { profileData } from "./container/Data";
-// import About from "./container/about/About";
+import About from "./container/about/About";
 import Experiance from "./container/experience/Experience";
 import Educations from "./container/education/Educations";
 // import Achievements from "./container/achivements/Achivements";
@@ -17,7 +17,7 @@ function App() {
         <ProfileHeader name={profileData.name} title={profileData.title} location={profileData.location} ></ProfileHeader>
         </div>
         <div>
-        {/* <About/> */}
+        <About/>
         <Experiance/> 
         <Educations/>
         {/*<Achievements/>

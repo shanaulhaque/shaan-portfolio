@@ -1,5 +1,6 @@
 
-import ai from '../../assets/ai.png';
+//import ai from '../../assets/ai.png';
+import ai from '../../assets/developer-pic-1.png';
 import './profile_header.css'
 const ProfileHeader = ({ name, title, location }) => (
 

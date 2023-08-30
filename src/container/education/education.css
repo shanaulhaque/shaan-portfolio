@@ -1,6 +1,29 @@
+.education_title {
+    padding: 2rem;
+    background-color: #f4eeec;
+    display: flex;
+    flex-direction: row;
+}
+
+.education_title h1 {
+    font-size: 25.11px;
+    line-height: 30.30px;
+    color: #5e5d5d;
+    cursor: pointer;
+}
+
+.education_title_bar {
+    border: 1px solid #5e5d5d;
+    width: 100%;
+    height: 2px;
+    flex: 1;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
 .education_content {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
     background-color: #f4eeec;
     display: flex;
     flex-direction: row;
@@ -9,17 +32,17 @@
 }
 
 .education_content-image{
-    margin-left: 5rem;
+    float: 1;
+    margin-left: 2rem;
 }
 
-.education_content-detail{
+.education_content-detail {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
 }
 
 .education_content-image img{
-    padding-top: 20px;
     width: 450px;
     height: 400px;
 }

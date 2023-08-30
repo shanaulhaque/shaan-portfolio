@@ -36,28 +36,42 @@ export const workDetails = [
         companyName: "Goldman Sachs",
         startDate: "2017",
         endDate: "Present",
-        title: "Vice President"
+        title: "Vice President",
+        companyLink: "https://www.goldmansachs.com",
+        address: "Bangalore",
+        work: "Architect and developed mission-critical applications to meet regulatory requirements. Led the creation of a MiFID-compliant application capable of processing 100K daily transactions while ensuring compliance with regulatory standards."
     },
     {
         logo: "",
         companyName: "Samsung R&D",
         startDate: "2017",
         endDate: "2017",
-        title: "Senior Software Developer"
+        title: "Senior Software Developer",
+        companyLink: "https://research.samsung.com",
+        address: "Bangalore",
+        work: "A Convolutional Neural Network (CNN) is a type of deep learning algorithm that is particularly well-suited for image recognition and processing tasks. It is made up of multiple layers, including convolutional layers, pooling layers, and fully connected layers"
+
     },
     {
         logo: "",
-        companyName: "EdgeVerve Limited",
+        companyName: "EdgeVerve Systems",
         startDate: "2017",
         endDate: "2015",
-        title: "Product Engineer"
+        title: "Product Engineer",
+        companyLink: "https://www.edgeverve.com",
+        address: "Bangalore",
+        work: "Panel Android application and Mobile Android application: Application in use to amplify agile workspace. Development of android application which is used to optimize usage of different types of space."
     },
     {
         logo: "",
         companyName: "Infosys Limited",
         startDate: "2015",
         endDate: "2015",
-        title: "System Engineer Traniee"
+        title: "System Engineer Traniee",
+        companyLink: "https://www.infosys.com",
+        address: "Bangalore",
+        work: "Developed full stack of a E-Commerce website using Java, J2EE, Hibernate and JSP."
+
     }
 ]
 

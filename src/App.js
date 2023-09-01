@@ -3,7 +3,7 @@ import { profileData } from "./container/Data";
 import About from "./container/about/About";
 import Experiance from "./container/experience/Experience";
 import Educations from "./container/education/Educations";
-// import Achievements from "./container/achivements/Achivements";
+import Achievements from "./container/achivements/Achivements";
 // import Footer from "./container/footer/Footer";
 import './App.css'
 import ProfileNavbar from "./container/header/ProfileNavbar";
@@ -20,8 +20,8 @@ function App() {
         <About/>
         <Experiance/> 
         <Educations/>
-        {/*<Achievements/>
-        <Footer/> */}
+        <Achievements/>
+        {/*<Footer/> */}
         </div>
     </div>
   );

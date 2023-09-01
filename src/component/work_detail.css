@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     padding-bottom: 20px;
-    background:  #f4eeec;
+    background:  var(--color-bg-light);
 }
 
 .work_detail-container a{

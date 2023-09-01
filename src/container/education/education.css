@@ -1,6 +1,6 @@
 .education_title {
     padding: 2rem;
-    background-color: #f4eeec;
+    background-color: var(--color-bg-light);
     display: flex;
     flex-direction: row;
 }
@@ -24,7 +24,7 @@
 .education_content {
     padding-top: 2rem;
     padding-bottom: 4rem;
-    background-color: #f4eeec;
+    background-color: var(--color-bg-light);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,6 +34,7 @@
 .education_content-image{
     float: 1;
     margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .education_content-detail {
@@ -60,6 +61,11 @@
     }
     .education_content-image{
         display: none;
+    }
+    .education_content-detail-line {
+        margin-right: 0rem;
+        margin-left: 2rem;
+    
     }
     
   }

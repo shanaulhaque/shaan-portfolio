@@ -1,6 +1,6 @@
 .experience_title {
     padding: 2rem;
-    background-color: #f4eeec;
+    background-color: var(--color-bg-light);
     display: flex;
     flex-direction: row;
 }
@@ -23,7 +23,7 @@
 
 .experience_content {
     padding: 3rem;
-    background-color: #f4eeec;
+    background-color: var(--color-bg-light);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    width: 50%;
+    width: 60%;
 }
 
 .experience_content-detail-line {
@@ -51,7 +51,10 @@
 @media screen and (max-width: 820px) {
    
     .experience_content-detail {
-        width: 70%;
+        width: 90%;
+    }
+    .experience_content {
+        padding: 1rem;
     }
     
 }

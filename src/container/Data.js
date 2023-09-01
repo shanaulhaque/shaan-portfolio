@@ -1,4 +1,6 @@
-
+import award from '../assets/award.png';
+import firstPrize from '../assets/first-prize.png';
+import secondPrize from '../assets/2nd-place.png';
 
 export const profileData = {
     name : "Shanaul Haque",
@@ -15,14 +17,14 @@ export const educationData = [
         instituteImgUrl: ""
     },
     {
-        institute: "Belpahar English Medium School Belpahar",
+        institute: "Belpahar English Medium School, Belpahar",
         program: "High School (XII) - Science",
         startDate: "2011",
         endDate: "2009",
         instituteImgUrl: ""
     },
     {
-        institute: "Dayanand Anglo Vedic (DAV) Bandhbahal",
+        institute: "Dayanand Anglo Vedic (DAV), Bandhbahal",
         program: "High School (X) - Science",
         startDate: "2009",
         endDate: "1999",
@@ -76,11 +78,47 @@ export const workDetails = [
 ]
 
 export const achievements = [
-  "Got 13th rank in TCS CodeVita Programming Contest 2013 (As part of team 'beginners').",
-  "Qualified for Regional level ACM-ICPC 2015",
-  "State finalist in Aspirations2020 Programming Contest 2013-2014 under Infosys Campus Connect Program (As part of a team 'beginners').",
-  "Won 1st prize in the 'Tejaspardha (Programming Contest)' event in Sankalp-2013 the annual National level Techno-Management fest of NIST.",
-  "Won 1st prize in the “SamyaKramadesh (Programming Quiz)” event in Sankalp-2013 the annual National level Techno-Management fest of NIST.",
-  "Won 2nd prize in the “ISTE Programming Contest” organised on the eve of Engineer’s day 2013.",
-  "Won 2nd prize in the “CodeZen C (Programming Contest)” event in Sankalp-2012 the annual National level Techno-Management fest of NIST."
+    {
+        image: award,
+        position: "13th",
+        event: "TCS CodeVita | 2013",
+        detail: "CodeVita: The TCS Global Coding Contest for Students"
+    },
+    {
+        image:  award,
+        position: "Qualified for Regional level",
+        event: "ACM-ICPC | 2015",
+        detail: "Association for Computing Machinery – International Collegiate Programming Contest"
+    },
+    {
+        image:  award,
+        position: "State finalist",
+        event: "Aspirations2020 | 2013-2014",
+        detail: "Programming Contest 2013-2014 under Infosys Campus Connect Program"
+    },
+    {
+        image:  firstPrize,
+        position: "1st",
+        event: "Tejaspardha | 2013",
+        detail: "Programming Contest event in Sankalp the annual National level Techno-Management fest of NIST."
+    },
+    {
+        image:  firstPrize,
+        position: "1st",
+        event: "SamyaKramadesh | 2013",
+        detail: "Programming Quiz event in Sankalp the annual National level Techno-Management fest of NIST."
+    },
+    {
+        image:  secondPrize,
+        position: "2nd",
+        event: "ISTE Programming Contest | 2013",
+        detail: "Indian Society for Technical Education Programming Contest organised on the eve of Engineer’s day 2013."
+    },
+    {
+        image:  secondPrize,
+        position: "2nd",
+        event: "CodeZen C | 2012",
+        detail: "Programming Contest) event in Sankalp the annual National level Techno-Management fest of NIST."
+    }
+  
 ]

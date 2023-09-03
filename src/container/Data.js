@@ -94,7 +94,7 @@ export const achievements = [
         image:  award,
         position: "State finalist",
         event: "Aspirations2020 | 2013-2014",
-        detail: "Programming Contest 2013-2014 under Infosys Campus Connect Program"
+        detail: "Programming Contest under Infosys Campus Connect Program"
     },
     {
         image:  firstPrize,
@@ -118,7 +118,7 @@ export const achievements = [
         image:  secondPrize,
         position: "2nd",
         event: "CodeZen C | 2012",
-        detail: "Programming Contest) event in Sankalp the annual National level Techno-Management fest of NIST."
+        detail: "Programming Contest event in Sankalp the annual National level Techno-Management fest of NIST."
     }
   
 ]

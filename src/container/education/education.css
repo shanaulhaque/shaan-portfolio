@@ -46,6 +46,7 @@
 .education_content-image img{
     width: 450px;
     height: 400px;
+    border-radius: 1rem;
 }
 
 .education_content-detail-line {

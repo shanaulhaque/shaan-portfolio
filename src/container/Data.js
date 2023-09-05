@@ -8,6 +8,11 @@ export const profileData = {
     location : "Bangalore"
 }
 
+export const aboutMe = [
+    "Beyond the world of coding, I'm an avid traveler. Exploring new cultures, cuisines, and landscapes is a source of inspiration and growth for me. Whether it's hiking through the rugged mountains or strolling through historic cities, I find that every journey brings new perspectives and fuels my creativity.",
+    "Solving puzzles is both a hobby and a mindset. I relish the thrill of deciphering intricate puzzles, whether they're brainteasers, cryptic codes, or complex algorithms. This love for problem-solving extends seamlessly into my work as a developer, where I'm constantly seeking innovative solutions."
+]
+
 export const educationData = [
     {
         institute: "National Institue of Science and Technology, Berhampur",
@@ -51,7 +56,7 @@ export const workDetails = [
         title: "Senior Software Developer",
         companyLink: "https://research.samsung.com",
         address: "Bangalore",
-        work: "A Convolutional Neural Network (CNN) is a type of deep learning algorithm that is particularly well-suited for image recognition and processing tasks. It is made up of multiple layers, including convolutional layers, pooling layers, and fully connected layers"
+        work: "Member of team BixBy. Bixby is Samsung's voice-powered virtual assistant. It's designed to operate on a wide range of Samsung devices, including smartphones, smart TVs, and home appliances. Bixby utilizes NLP and other AI technologies to understand and respond to user voice commands and text inputs"
 
     },
     {
@@ -62,7 +67,7 @@ export const workDetails = [
         title: "Product Engineer",
         companyLink: "https://www.edgeverve.com",
         address: "Bangalore",
-        work: "Panel Android application and Mobile Android application: Application in use to amplify agile workspace. Development of android application which is used to optimize usage of different types of space."
+        work: "Developed a panel-based Android app to enhance workspace usability involves designing and developing an application that provides users with an intuitive and efficient way to access and manage various workspace-related functions."
     },
     {
         logo: "",

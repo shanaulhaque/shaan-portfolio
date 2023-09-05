@@ -12,7 +12,7 @@
   margin-right: 5rem;
   transition: .5s ease;
   opacity: 0;
-  animation: slideRight 1s ease forwards; 
+  animation: slideLeft 1s ease forwards; 
   animation-delay: calc(.2s * var); 
 }
 
@@ -109,6 +109,19 @@
   }
 }
 
+@media screen and (max-width: 1250px) {
+  .profile__header-content h1 {
+      font-size: 50px;
+      line-height: 60px;
+  }
+
+  .profile__header-content p {
+      font-size: 16px;
+      line-height: 24px;
+  }
+
+}
+
 @media screen and (max-width: 650px) {
   .profile__header-content h1 {
       font-size: 48px;
@@ -118,6 +131,9 @@
   .profile__header-content p {
       font-size: 16px;
       line-height: 24px;
+  }
+  .profile__header-image img {
+    transform: scaleX(1);
   }
   
 }
@@ -131,5 +147,8 @@
   .profile__header-content p {
       font-size: 14px;
       line-height: 24px;
+  }
+  .profile__header-image img {
+    transform: scaleX(1);
   }
 }

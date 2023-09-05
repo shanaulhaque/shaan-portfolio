@@ -4,7 +4,7 @@ import './profile_navbar.css'
 
 const Menu = () => (
     <>
-    <p><a href="/">Home</a></p>
+    <p><a href="#home">Home</a></p>
     <p><a href="#about">About</a></p>
     <p><a href="#experience">Experience</a></p>
     <p><a href="#education">Education</a></p>

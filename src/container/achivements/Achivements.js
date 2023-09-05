@@ -7,7 +7,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import { EffectCoverflow,Autoplay, Pagination, Navigation } from 'swiper/modules';
 import AchievementDetail from "./AchivementsDetail";
 
 const Achievements = () => (
@@ -18,24 +18,28 @@ const Achievements = () => (
     </div>
   <div className="achivement_content">
   <Swiper
-        effect={'coverflow'}
+        effect={'autoplay'}
         grabCursor={true}
         centeredSlides={true}
         loop={true}
         slidesPerView={'auto'}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
         }}
+        // coverflowEffect={{
+        //   rotate: 0,
+        //   stretch: 0,
+        //   depth: 100,
+        //   modifier: 2.5,
+        // }}
         pagination={{ el: '.swiper-pagination', clickable: true }}
         navigation={{
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
           clickable: true,
         }}
-        modules={[EffectCoverflow, Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="swiper_container"
       >
           {achievements.map((achievement) => (

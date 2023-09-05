@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shaan-portfolio/static/css/main.753fb532.css",
-    "main.js": "/shaan-portfolio/static/js/main.701c7bb7.js",
+    "main.css": "/shaan-portfolio/static/css/main.f3e7b141.css",
+    "main.js": "/shaan-portfolio/static/js/main.bd1fe16d.js",
     "static/js/787.60f47323.chunk.js": "/shaan-portfolio/static/js/787.60f47323.chunk.js",
     "static/media/laptop.png": "/shaan-portfolio/static/media/laptop.12c7808b4bafaa58cdee.png",
     "static/media/sh.jpg": "/shaan-portfolio/static/media/sh.023ac91ec8a9e3ddb371.jpg",
@@ -10,12 +10,12 @@
     "static/media/first-prize.png": "/shaan-portfolio/static/media/first-prize.1f7f97efa024ac1e8a2d.png",
     "static/media/award.png": "/shaan-portfolio/static/media/award.7ab4ade5de4ea5dae4bd.png",
     "index.html": "/shaan-portfolio/index.html",
-    "main.753fb532.css.map": "/shaan-portfolio/static/css/main.753fb532.css.map",
-    "main.701c7bb7.js.map": "/shaan-portfolio/static/js/main.701c7bb7.js.map",
+    "main.f3e7b141.css.map": "/shaan-portfolio/static/css/main.f3e7b141.css.map",
+    "main.bd1fe16d.js.map": "/shaan-portfolio/static/js/main.bd1fe16d.js.map",
     "787.60f47323.chunk.js.map": "/shaan-portfolio/static/js/787.60f47323.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.753fb532.css",
-    "static/js/main.701c7bb7.js"
+    "static/css/main.f3e7b141.css",
+    "static/js/main.bd1fe16d.js"
   ]
 }

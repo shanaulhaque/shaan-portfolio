@@ -11,7 +11,20 @@
 
 .work_detail-container p{
     width: auto;
-    line-height: 20px;
+    font-family: var(--font-family);
+    color: var(--color-text-2);
+    line-height: 1.4rem;
+}
+
+.work_detail-container span{
+    font-family: var(--font-family);
+    color: var(--color-text-2);
+    line-height: 2rem;
+}
+.work_detail-container h2{
+    font-family: var(--font-family);
+    color: var(--color-text-2);
+    line-height: 2rem;
 }
 
 @media screen and (max-width: 550px) {

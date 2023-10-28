@@ -8,12 +8,13 @@
 .achivement_title h1 {
     font-size: 25.11px;
     line-height: 30.30px;
-    color: #5e5d5d;
+    font-family: var(--font-family);
+    color: var(--color-text-header);
     cursor: pointer;
 }
 
 .achivement_title_bar {
-    border: 1px solid #5e5d5d;
+    border: var(--border);
     width: 100%;
     height: 2px;
     flex: 1;

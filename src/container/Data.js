@@ -62,8 +62,8 @@ export const workDetails = [
     {
         logo: "",
         companyName: "EdgeVerve Systems",
-        startDate: "2017",
-        endDate: "2015",
+        startDate: "2015",
+        endDate: "2017",
         title: "Product Engineer",
         companyLink: "https://www.edgeverve.com",
         address: "Bangalore",

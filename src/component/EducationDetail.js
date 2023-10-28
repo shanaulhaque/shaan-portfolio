@@ -9,7 +9,7 @@ const EducationDetail = ({ educationDetail }) =>  (
         transition={{duration:0.5, type:"spring"}}>
                 <div className="education_detail-container-content" >
                     <h2>{educationDetail.institute}</h2>
-                    <h3>{educationDetail.program}</h3>
+                    <p>{educationDetail.program}</p>
                 </div>
         </motion.div>
     </li>

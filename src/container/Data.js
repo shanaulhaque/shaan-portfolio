@@ -62,7 +62,7 @@ export const workDetails = [
         logo: "",
         companyName: "Goldman Sachs",
         startDate: "2017",
-        endDate: "Present",
+        endDate: "2025",
         title: "Vice President",
         companyLink: "https://www.goldmansachs.com",
         address: "Bangalore",

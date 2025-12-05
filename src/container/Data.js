@@ -4,7 +4,7 @@ import secondPrize from '../assets/2nd-place.png';
 
 export const profileData = {
     name : "Shanaul Haque",
-    title : "Software Engineer at Salesforce",
+    title : "Lead Member of Technical Staff at Salesforce",
     location : "Bangalore"
 }
 

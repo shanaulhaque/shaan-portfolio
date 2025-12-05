@@ -4,7 +4,7 @@ import secondPrize from '../assets/2nd-place.png';
 
 export const profileData = {
     name : "Shanaul Haque",
-    title : "Vice President at Goldman Sachs",
+    title : "Software Engineer at Salesforce",
     location : "Bangalore"
 }
 
@@ -38,6 +38,26 @@ export const educationData = [
 ]
 
 export const workDetails = [
+    {
+        logo: "",
+        companyName: "Salesforce",
+        startDate: "2025",
+        endDate: "Present",
+        title: "Lead Member of Technical Staff",
+        companyLink: "https://www.salesforce.com",
+        address: "Bangalore",
+        work: "Designing and implementing a cloud-native system to execute, monitor, and scale data pipeline workloads across Salesforce’s distributed environment."
+    },
+    {
+        logo: "",
+        companyName: "JazzX AI",
+        startDate: "2025",
+        endDate: "2025",
+        title: "Senior Software Engineer",
+        companyLink: "https://jazzx.ai",
+        address: "Bangalore",
+        work: "Implemented a mortgage underwriting reasoner using Neo4j (knowledge graph), proprietary LLM orchestration pipelines, and Rego (OPA) policy engine to combine structured credit data with unstructured document insights for automated decisioning."
+    },
     {
         logo: "",
         companyName: "Goldman Sachs",
